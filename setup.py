@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="AI4P",
+    name="ai4p",
     version="1.0",
     author="Sripaad",
     author_email="sripaad751@gmail.com",

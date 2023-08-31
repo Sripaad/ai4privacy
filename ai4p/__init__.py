@@ -1,1 +1,1 @@
-from ai4p_anonymizer.Ai4pModel import Anonymizer
+from ai4p.AI4P import Anonymizer
