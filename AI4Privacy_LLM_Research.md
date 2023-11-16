@@ -20,6 +20,10 @@ The first phase of the project will involve collecting and preparing a dataset o
     [ ] Validation dataset for PII masking.
     [ ] Compare trained models on the validation dataset.
     [ ] Release PII masked Enron Dataset.
+    [ ] Create PII masked Pre-training dataset.
+    [ ] Train models on masked data.
+    [ ] Test and evaluate the model on benchmarks.
+    [ ] Release Open Privacy Enhanced Language Model.(OPEL, name is a work in progress)
 
 **Language Model Training**
 
