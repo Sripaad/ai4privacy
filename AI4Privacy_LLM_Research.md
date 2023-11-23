@@ -43,7 +43,7 @@ The project will be evaluated using the following open llm benchmarks.
     - A model to detect and mask PII data.
     - A dataset of PII-free text. 
     - A set of language models pre-trained or finetuned on PII-free dataset.
-    - Comparison of LLaMa, Mistral, Yi-6B vs AI4PrivacyModel(OPEL) on benchmarks
+    - Comparison of Flan-T5, LLaMaV2, Mistral, Zephyr, Yi-6b, Falcon, RedPajama vs AI4PrivacyModel(OPEL) on benchmarks
     - The performance of language models trained on PII-free datasets vs traditional llms.
     - The privacy-preserving properties of language models.
     - The usefulness of language models in a variety of applications.sss
