@@ -4,7 +4,7 @@ The goal of the AI4Privacy project is to develop language models that can be tra
 
 The project will address the following research questions:
 
-    - How can language models be trained on datasets devoid of PII?
+    - Are language models trained on datasets devoid of PII more effective??
     - What are the performance trade-offs of training language models on PII-free datasets?
     - How can language models be used to protect privacy?
 
@@ -18,16 +18,17 @@ The first phase of the project will involve collecting and preparing a dataset o
     [x] Custom PII masking dataset.
     [x] Train TokenClassification models on custom PII dataset.
     [ ] Validation dataset for PII masking.
-    [ ] Compare trained models on the validation dataset.
-    [ ] Release PII masked Enron Dataset.
-    [ ] Create PII masked Pre-training dataset.
+    [ ] Compare multiple TokenClassification trained models on the validation dataset.
+    [ ] Release PII masked Dataset.
+    [ ] Create PII masked Pre-training / finetuning dataset.
     [ ] Train models on masked data.
+    [ ] Study activations for the masked model.
     [ ] Test and evaluate the model on benchmarks.
     [ ] Release Open Privacy Enhanced Language Model.(OPEL, name is a work in progress)
 
 **Language Model Training**
 
-The second phase of the project will involve pre-training language models on the PII-free dataset. 
+The second phase of the project will involve pre-training/finetuning language models on the PII-free dataset. 
 
 **Privacy-Preserving Techniques**
 
@@ -35,17 +36,17 @@ The third phase of the project will involve developing privacy-preserving techni
 
 ## Evaluation
 
-The project will be evaluated using open llm benchmarks.
-(TBD)
+The project will be evaluated using the following open llm benchmarks.
+    - (TBD)
 
 ## Deliverables: 
     - A model to detect and mask PII data.
-    - A dataset of PII-free text. (openwebtext)
-    - A set of language models trained on PII-free datasets (gpt2)
-    - Comparison of GPT2 vs AI4Privacy on benchmarks
+    - A dataset of PII-free text. 
+    - A set of language models pre-trained or finetuned on PII-free dataset.
+    - Comparison of LLaMa, Mistral, Yi-6B vs AI4PrivacyModel(OPEL) on benchmarks
     - The performance of language models trained on PII-free datasets vs traditional llms.
     - The privacy-preserving properties of language models.
-    - The usefulness of language models in a variety of applications.
+    - The usefulness of language models in a variety of applications.sss
 
 ## Benefits:
     - To answer the question `Will the development of pii masked language models can be used in a wider range of applications/ are they more effective?`
