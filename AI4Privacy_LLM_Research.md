@@ -30,6 +30,15 @@ The first phase of the project will involve collecting and preparing a dataset o
 
 The second phase of the project will involve pre-training/finetuning language models on the PII-free dataset. 
 
+**Model Options**
+[bee-spoke-team](https://huggingface.co/BEE-spoke-data)
+
+**Pretraining Dataset**
+[JeanKaddour/minipile](https://huggingface.co/datasets/JeanKaddour/minipile)(3.18GB)
+[mattymchen/refinedweb-3m](https://huggingface.co/datasets/mattymchen/refinedweb-3m)(5GB)
+[simple_wikipedia_LM](https://huggingface.co/datasets/pszemraj/simple_wikipedia_LM)(200MB)
+[Skylion007/openwebtext](https://huggingface.co/datasets/Skylion007/openwebtext)(3GB)
+
 **Privacy-Preserving Techniques**
 
 The third phase of the project will involve developing privacy-preserving techniques for using language models. 
