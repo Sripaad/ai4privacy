@@ -1,6 +1,6 @@
 # AI4Privacy Research 
 
-The goal of the AI4Privacy project is to develop language models that can be trained on datasets devoid of personally identifiable information (PII). This is a challenging task, as PII is often present in natural language data. However, it is an important task, as it will enable the development of language models that can be used in a wider range of applications, such as healthcare, finance, and law enforcement.
+Traditional language models often struggle with privacy concerns due to the prevalence of personally identifiable information (PII) in training data. AI4Privacy project tackles this challenge head-on by pioneering the development of models trained solely on de-identified data. This approach unlocks access to sensitive domains empowering researchers and practitioners to leverage language models while safeguarding individual privacy.
 
 The project will address the following research questions:
 
